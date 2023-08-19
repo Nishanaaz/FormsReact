@@ -1,0 +1,54 @@
+.form{
+    height:20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 1rem;
+}
+
+h1{
+    color: var(--primary-color);
+
+}
+.VisibilityIcon{
+    color: var(--primary-color);
+}
+
+.lockIcon{
+    color: var(--primary-color);
+}
+
+.emailIcon{
+    color: var(--primary-color);
+}
+
+button{
+    width: 90%;
+    color: var(--white-color);
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--secondary-color);
+}
+
+.inputContainer{
+       width: 80%;
+       display:flex;
+       gap:0.5rem;
+       border-bottom: 2px solid rgb(128, 128, 128);
+}
+
+
+.passwordInput{
+    width: 90%;
+}
+
+
